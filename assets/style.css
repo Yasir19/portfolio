@@ -1,0 +1,87 @@
+/* unversal selecctor that apply to all the page  */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+
+}
+/* style apply to the header */
+header{
+    background-color:#2e2c2c;
+    padding:20px 35px;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+}
+header h1{
+    font-weight:bold;
+    font-size:36px;
+    background-color:#7fe5ff;
+    margin-left:-40px;
+    text-shadow: 4px 2px 100px rgba(255,0,0,0);
+}
+header h1 a{
+    color:#2e2c2c;
+    text-decoration: none;
+    padding:0 2px 0 60px;
+}
+
+header nav{
+    margin: 7px 0;
+}
+header nav ul {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    align-items:center;
+    list-style:none;
+}
+header nav ul li a{
+    margin: 0 30px;
+    color:#7fe5ff;
+    font-weight:lighter;
+    font-size:22px;
+    text-underline-offset:4px ;
+}
+footer{
+    background-color:#2e2c2c;
+    width:100%;
+    padding:40px 35px;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap:wrap; 
+}
+footer h2{
+    color:#7fe5ff;
+    font-size:30px;
+    margin:0;
+}
+footer div{
+    color:#7fe5ff;
+    font-size:15px;
+    margin-top:16px;
+}
+.hero{
+   background-image:url(./images/hero-bg.png);
+   max-width:100%;
+   height:350px;
+   background-size:cover;
+   background-position:center; 
+   position:relative;
+}
+.hero h2{
+    background-color:#7fe5ff;
+    width:28%;
+    text-align:center;
+    font-size:35px;
+    color:#2e2c2c; 
+    font-family:cursive;
+    position:absolute;
+    bottom:32px;
+    right:50px;
+}
+    
