@@ -7,9 +7,7 @@
 body{
     font-family:Arial, Helvetica, sans-serif;
     background-color: #e7e7e7;
-    min-height: 100vh;
-    display:flex;
-    flex-direction: column;
+
 
 }
 /* style apply to the header */
@@ -53,7 +51,7 @@ header nav ul li a{
 footer{
     background-color:#2e2c2c;
     width:100%;
-    padding:40px 35px;
+    padding:20px 15px;
     display:flex;
     justify-content: space-between;
     flex-wrap:wrap; 
@@ -61,7 +59,7 @@ footer{
 }
 footer h2{
     color:#7fe5ff;
-    font-size:30px;
+    font-size:24px;
     margin:0;
 }
 footer div{
@@ -89,31 +87,58 @@ footer div{
     bottom:32px;
     right:50px;
 }
-.title{
+.subject{
     display:flex;
-    justify-content: space-between;
     color:#2e2c2c;
 }
 .title h2{
-    font-size:48px;
-    margin-bottom:5px;
-    padding-bottom:10px;
-    text-align:right;
-    margin:10px 20px 10px 0;
-    padding:5px 10px 5px 10px;
-    width:15%;
-    Border-right: 3px solid #2e2c2c;
-    position:absolute;
-    
+    font-size:40px;
+    flex:1 30%;
+    text-align: right;
+    padding: 5px 10px 5px 10px;
+    margin-left:5px;
 }
 
 .intro p{
 line-height:1.7;
-width:80%;
+width:100%;
 font-size: 20px;
-text-align:left;
-margin:30px 10px 20px 250px;
-position:relative;
+margin:5px 10px;
+padding:5px 10px 30px 15px;
+Border-left: 3px solid #2e2c2c;
+flex-wrap:wrap;
+flex:2 70%;
 }
+.work-content{
+    border-left:3px solid black;
+    width:100%;
+    margin:0px 10px 0 35px;
+    padding:5px 10px 30px 15px;
+}
+.work-image{
+    position:relative;
+    flex:1 12%;
+    flex-wrap:wrap;
+    justify-content: flex-end;
+    margin:10px;
+   
+}
+.work-image img{
+    max-width: 50%;
+    border:2px solid #7fe5ff;
+ margin:10px
+    
+    }
+.work-content a{
+    background: blueviolet;
+    padding: 10px;
+    position:absolute;
+    bottom:45px;
+    left:32px;
+    font-size: 16px;
+
+}
+
+
 
     
