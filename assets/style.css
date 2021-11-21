@@ -59,7 +59,7 @@ footer{
 }
 footer h2{
     color:#7fe5ff;
-    font-size:24px;
+    font-size:16px;
     margin:0;
 }
 footer div{
@@ -93,11 +93,12 @@ footer div{
 }
 .title h2{
     font-size:40px;
-    flex:0 30%;
-    text-align: end;
-    padding: 2px 2px 2px 2px;
-    margin-left:0px;
-    border:3px solid red;
+    /* flex:0 30%; */
+    width: 150px;
+    text-align: right;
+    padding: 10px 5px 10px 5px;
+    margin-left:5px;
+    
   
 }
 
@@ -105,8 +106,8 @@ footer div{
 line-height:1.7;
 width:100%;
 font-size: 20px;
-margin:5px 10px;
-padding:5px 10px 30px 15px;
+margin:15px 20px 10px 35px;
+padding:10px 15px 15px 25px;
 Border-left: 3px solid #2e2c2c;
 flex-wrap:wrap;
 flex:2 70%;
@@ -115,8 +116,7 @@ flex:2 70%;
     display:flex;
     flex-wrap: wrap;
     border-left:3px solid black;
-    /* width:100%; */
-    margin:0px 10px 0 35px;
+    margin:0px 10px 0px 35px;
     padding:5px 10px 30px 15px;
 }
 .work-image{
@@ -126,9 +126,10 @@ flex:2 70%;
    
 }
 .work-image img{
-    width: 100%;
-    max-width: 1200px;
-    min-width: 400px;
+    width:100%;
+    max-width: 1080px;
+    min-width:400px;
+    height: 450px;
     border:2px solid #7fe5ff;
     
     }
@@ -150,13 +151,72 @@ flex:2 70%;
     list-style:none;
     align-items:center;
     margin:0px 10px 0 35px;
-    padding:5px 10px 30px 15px
+    padding:5px 10px 30px 15px;
+    margin-bottom: 5px;
  
 }
 .info li{
     margin: 0 30px;
     font-size: 18px;
 }
+@media screen and (max-width:980px){
+    header {
+      padding-bottom: 0px;
+      justify-content: center;
+      position: relative;
+     
+    }
+    header h1 {
+
+        padding:10px 20px; 
+    }
+    header h1 a{
+     padding:0px;
+    }
+    .header nav ul li a{
+        font-size:10%;
+    }
+    footer h2, footer div{
+        text-align: center;
+        width:100%;
+    }
+    .hero h2{
+        border:3px solid;
+        font-size:28px;
+       width:40%;
+        text-align: center;
+        padding:2px 15px;
+       
+    }
+    .subject{
+        width:80%;
+    }
+    .title{
+        flex:1 20%;
+    }
+    .intro p{
+        flex:2 100%;
+        font-size:90%;
+        width:120%;
+  
+    }
+    .work-image img{
+        flex:0 32%;
+        max-width:600px;
+        min-width:250px;
+        height:200px;
+    }
+    .work-content a{
+        bottom:20px;
+        left:6px;
+    }
+    .info ul li  {
+        font-size: 90%;
+        margin: 5px 10px;
+        padding:5px 10px;
+    }
+}
+
 
 
     
